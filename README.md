@@ -13,7 +13,7 @@ After spending a year in Canada learning English, experiencing new cultures, bui
 
 As a lifelong **dog lover** and someone who has volunteered to foster and train stray dogs, I wanted to build something meaningful at the intersection of **pet care** and **tech**.
 
-This side project helps me sharpen my skills in `real-time video processing`, `motion tracking`, `behavior recognition`, and `system integration` while also keeping an eye on my adopted aging Shiba Inu 🐕.
+This side project helps me sharpen my skills in `real-time video processing`, `object tracking`, `behavior recognition`, and `system integration` while also keeping an eye on my adopted aging Shiba Inu 🐕.
 
 ---
 
@@ -22,7 +22,7 @@ This side project helps me sharpen my skills in `real-time video processing`, `m
 - :movie_camera: **Real-time RTSP Stream Capture** 
   Connects to any RTSP-supported camera via RTSP to record continuous video streams for behavior analysis.
 
-- :on: **Motion Tracking with Camera Adjustment** 
+- :on: **Object Tracking with Camera Adjustment** 
   Tracks pet movement within the frame.
   Supports automatic PTZ (Pan-Tilt-Zoom) control based on dog position to keep the dog centered on screen.
 
@@ -44,7 +44,7 @@ Uses pre-trained object detection models (e.g., YOLO) to detect common behaviors
 - :bar_chart: **Daily Summary Report**
   Auto-generated report summarizing key activities, with short video highlights (e.g., “10 seconds of cute moments from today”).
 
-### Dog Motion Tracking:
+### Dog Object Tracking:
 ![dogcam_demo_cropped](https://github.com/user-attachments/assets/35061d8a-acf5-4dfa-a1a9-e55354cb93a7)
 
 
@@ -55,7 +55,7 @@ Uses pre-trained object detection models (e.g., YOLO) to detect common behaviors
 - [x] RTSP camera integration & video recording
 - [x] Frame extraction & data labeling
 - [ ] PTZ（Pan-Tilt-Zoom) integration for camera control (**working on**)
-- [ ] Motion detection & activity segmentation
+- [ ] Object detection & activity segmentation
 - [ ] Dog behavior detection model training
 - [ ] Build interactive dashboard with Flask
 - [ ] Integrate LINE/Slack notification bot
