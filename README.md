@@ -44,6 +44,10 @@ Uses pre-trained object detection models (e.g., YOLO) to detect common behaviors
 - :bar_chart: **Daily Summary Report**
   Auto-generated report summarizing key activities, with short video highlights (e.g., “10 seconds of cute moments from today”).
 
+### Dog Motion Tracking:
+![dogcam_demo_cropped](https://github.com/user-attachments/assets/35061d8a-acf5-4dfa-a1a9-e55354cb93a7)
+
+
 ---
 
 ## Roadmap
