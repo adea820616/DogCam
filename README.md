@@ -55,7 +55,8 @@ Uses pre-trained object detection models (e.g., YOLO) to detect common behaviors
 - [x] RTSP camera integration & video recording
 - [x] Frame extraction & data labeling
 - [ ] PTZ（Pan-Tilt-Zoom) integration for camera control (**working on**)
-- [ ] Object detection & activity segmentation
+- [ ] Object tracking (OpenCV, DeepSORT)
+- [ ] Object detection（YOLO） & activity segmentation
 - [ ] Dog behavior detection model training
 - [ ] Build interactive dashboard with Flask
 - [ ] Integrate LINE/Slack notification bot
@@ -66,6 +67,7 @@ Uses pre-trained object detection models (e.g., YOLO) to detect common behaviors
 
 - Python + OpenCV
 - FFmpeg (for stream handling & re-encoding)
+- (Upcoming) DeepSORT supports multi-dog tracking with persistent identity assignment, even when dogs frequently enter, exit, or are briefly occluded in the video
 - (Upcoming) Yolov for object detection
 - (Planned) Flask for web interface
 - (Planned) SQLite or MongoDB for storing activity metadata
